@@ -3,13 +3,13 @@
 # my-first-rest-api
 
 Este projeto tem como objetivo construir uma Rest API utilizando o framework Flask.
-Para exemplificar, sera construído um sistema onde será possível criar lojas e itens dentro das mesmas através de requisicoes feitas utilizando o software Insomnia.
+Para exemplificar, sera construído um sistema onde é possível criar lojas e itens através de requisicoes HTTP feitas utilizando o software Insomnia.
 
 **Obs:**
-Para iniciar, primeiro será necessario fazer o build da imagem em que a aplicacao ja sera executada:
+Para iniciar, primeiro é necessario fazer o build da imagem e depois executar o container:
 `docker build -t my-first-api .`
 
-`docker run -p 5000:5000`
+`docker run -p 5000:5000 $image_id`
 
 **Obs2:**
 Requests para serem executadas no Insomnia:
